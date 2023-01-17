@@ -2,9 +2,9 @@ namespace Program
 {
     class Switch
     {
-        public Switch()
+        public Switch(int day)
         {
-            int day = 4;
+            // int day = Convert.ToInt32(Console.ReadLine());
             switch (day)
             {
                 case 1:

@@ -22,7 +22,7 @@ double -> float -> long -> int -> char
             // int n = (int)"9"; // error
 
             int n = Convert.ToInt32("68975");   // allow null value
-                                                // int allowBlank = Convert.ToInt32("");
+            // int allowBlank = Convert.ToInt32("");
 
             int m = Int32.Parse("68975");       // don't allow null value
             // int notAllowBlank = Int32.Parse("");

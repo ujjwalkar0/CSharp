@@ -7,7 +7,8 @@
             // new Conditions();
             // new Datatypes();
             // new Typecasting();
-            // new Switch();
+            // int day = Convert.ToInt32(Console.ReadLine());
+            // new Switch(day);
             // new While();
             // new For();
             // new BreakContinue();
@@ -26,8 +27,14 @@
             // MyConsDest.hello();
             // MyConsDest a = new MyConsDest();
 
-            new FileOperations();
+            // new FileOperations();
 
+            // new MyException();
+            
+            // System.Console.WriteLine((int)Level.Medium);
+            // System.Console.WriteLine(int.MaxValue);
+
+            new Oops();
 
         }
     }

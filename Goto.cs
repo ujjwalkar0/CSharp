@@ -5,14 +5,14 @@ namespace Program
         public Goto()
         {
             int x = 1;
-            Loop:
-                System.Console.WriteLine(x);
-                x++;
+        Loop:
+            System.Console.WriteLine(x);
+            x++;
 
-                if (x < 10)
-                {
-                    goto Loop;
-                }
+            if (x < 10)
+            {
+                goto Loop;
+            }
 
             // Hello:
             //     System.Console.WriteLine("Hello World");
