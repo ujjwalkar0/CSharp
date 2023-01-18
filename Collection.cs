@@ -119,37 +119,5 @@ enum Level
         Low=0,
         Medium=1,
         High='8'
-    }
-
+    } 
 }
-
-
-// class Hello{
-
-//     public static void Main(string[] args){
-        
-//         Console.WriteLine((int)Level.High);
-//         // new MyList();
-//         // new MyHashSet();
-//         // new MySortedSet();
-//         // new MyStack();
-//         // new MyDictionary();
-//         // new MySortedDictionary();
-//         // int i = 0;
-//         // Func<int, string> square = x => Convert.ToString(x * x);
-
-//         // Console.WriteLine(square(7));
-
-//         // hello:
-//         //     i=1;
-//         //     Console.Write("Hello World");
-        
-//         // if (i==0)
-//         //     goto hello;
-
-//         MyConsDest.hello();
-
-//         MyConsDest a = new MyConsDest();
-
-//     }
-// }

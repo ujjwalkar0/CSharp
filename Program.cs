@@ -34,7 +34,19 @@
             // System.Console.WriteLine((int)Level.Medium);
             // System.Console.WriteLine(int.MaxValue);
 
-            new Oops();
+            // new Oops();
+
+            // var bd = new GetSet(new DateTime(2000, 05, 21));
+            // System.Console.WriteLine(bd.birthday);
+            // System.Console.WriteLine(bd.getAge);
+
+            // Indexers ind = new Indexers();
+            // ind["hello"] = "world";
+            // System.Console.WriteLine(ind["hello"]);
+
+            // new UpDownCasting();
+
+            new Modifier();
 
         }
     }
