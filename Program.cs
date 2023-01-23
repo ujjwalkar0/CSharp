@@ -46,7 +46,13 @@
 
             // new UpDownCasting();
 
-            new Modifier();
+            // new Modifier();
+
+            // new MyString();
+
+            // new MyArrays();
+            // new MyConsDest();
+            new MyDelegates();
 
         }
     }
