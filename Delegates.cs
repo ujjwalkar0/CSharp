@@ -38,6 +38,21 @@ namespace Program
             nc(5);
             Console.WriteLine("Value of Num: {0}", getNum());
 
+            NumberChanger nm1 = delegate (int a)
+            {
+                return a+10;
+            };
+
+            System.Console.WriteLine(nm1.Invoke(8));
+
+
+            NumberChanger nm = (a) =>
+            {
+                return a+10;
+            };
+
+            System.Console.WriteLine(nm.Invoke(8));
+
         }
     }
 }

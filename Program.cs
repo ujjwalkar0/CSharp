@@ -53,6 +53,8 @@
             // new MyArrays();
             // new MyConsDest();
             new MyDelegates();
+            
+            // new Derived();
 
         }
     }
