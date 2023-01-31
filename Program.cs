@@ -30,7 +30,7 @@
             // new FileOperations();
 
             // new MyException();
-            
+
             // System.Console.WriteLine((int)Level.Medium);
             // System.Console.WriteLine(int.MaxValue);
 
@@ -52,10 +52,29 @@
 
             // new MyArrays();
             // new MyConsDest();
-            new MyDelegates();
-            
+            // new MyDelegates();
+            // new MyStatic();
+            // new MyEvents();
+
+            // new MyDynamic();
+
+            // var abc = new{
+
+            // };
             // new Derived();
 
+            // System.Console.WriteLine(staticClass.a);
+
+            // staticClass.a = 87;
+            // System.Console.WriteLine(staticClass.a);
+
+            
+            // staticClass.a = 86;
+            // System.Console.WriteLine(staticClass.a);
+
+            // staticModifier sf =  new staticModifier();
+            // sf.N = 5;
+            // System.Console.WriteLine(sf.N);
         }
     }
 }

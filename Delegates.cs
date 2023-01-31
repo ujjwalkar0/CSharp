@@ -1,10 +1,22 @@
 namespace Program
 {
     delegate int NumberChanger(int n);
+    delegate void Test(int n);
 
     class MyDelegates
     {
         static int num = 10;
+
+        public void Hello(int m)
+        {
+            m = m * 2;
+            System.Console.WriteLine(m);
+        }
+        public void Hello1(int m)
+        {
+            m = m + 9;
+            System.Console.WriteLine(m);
+        }
 
         public static int AddNum(int p)
         {
@@ -40,7 +52,7 @@ namespace Program
 
             NumberChanger nm1 = delegate (int a)
             {
-                return a+10;
+                return a + 10;
             };
 
             System.Console.WriteLine(nm1.Invoke(8));
@@ -48,11 +60,16 @@ namespace Program
 
             NumberChanger nm = (a) =>
             {
-                return a+10;
+                return a + 10;
             };
 
             System.Console.WriteLine(nm.Invoke(8));
 
+            Test t = new Test(Hello);
+            Test t1 = new Test(Hello1);
+
+            Test t3 = t + t1;
+            t3.Invoke(8);
         }
     }
 }
