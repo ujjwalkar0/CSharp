@@ -75,6 +75,13 @@
             // staticModifier sf =  new staticModifier();
             // sf.N = 5;
             // System.Console.WriteLine(sf.N);
+
+            // new MyExpando();
+            // new MyArrayList();
+
+            new MyFunCAction();
+            
+            // new MyHashTable();
         }
     }
 }

@@ -1,6 +1,52 @@
+using System.Collections;
 using System.Collections.Generic;
 namespace Program
 {
+    // Non Generic
+    class MyHashTable
+    {
+        public MyHashTable()
+        {
+            Hashtable openWith = new Hashtable();
+
+            openWith.Add("txt", "notepad.exe");
+            openWith.Add("bmp", "paint.exe");
+            openWith.Add("dib", "paint.exe");
+            openWith.Add("rtf", "wordpad.exe");
+            // openWith.Add("rtf", "wordpad.exe");
+
+            foreach (DictionaryEntry de in openWith)
+            {
+                Console.WriteLine("Key = {0}, Value = {1}", de.Key, de.Value);
+            }
+
+
+        }
+    }
+
+    class MyArrayList
+    {
+        public MyArrayList()
+        {
+            ArrayList myAL = new ArrayList();
+            myAL.Add("Hello");
+            myAL.Add("World");
+            myAL.Add("!");
+
+            System.Console.WriteLine(string.Join("\n", myAL.ToArray()));
+
+            foreach (var i in myAL) System.Console.WriteLine(i);
+
+            myAL.RemoveAt(2);
+            foreach (var i in myAL) System.Console.WriteLine(i);
+
+            myAL.Remove("World");
+            foreach (var i in myAL) System.Console.WriteLine(i);
+
+        }
+    }
+
+    // Generic
     class MyList
     {
         internal MyList()

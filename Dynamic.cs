@@ -12,8 +12,6 @@ namespace Program
         {
             dynamic a = 9;
 
-             
-
             a = Convert.ToString(a);
             System.Console.WriteLine(a);
 
