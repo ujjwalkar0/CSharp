@@ -165,6 +165,14 @@ namespace Program
         }
     }
 
+    class MyQueue{
+        public MyQueue(){
+            Queue q = new Queue();
+            Queue<Int16> a = new Queue<short>();
+            
+        }
+    }
+
     class MyConsDest
     {
         public MyConsDest()

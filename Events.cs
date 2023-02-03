@@ -3,7 +3,7 @@ namespace Program
     class MyEvents
     {
         public delegate int PrintWord(int value);
-        public event PrintWord MyEvent;
+        public event PrintWord? MyEvent;
         public MyEvents()
         {
             Hello();
@@ -19,7 +19,7 @@ namespace Program
             
             return MyEvent;
         }
-
+        
         public int printValue(int n)
         {
             System.Console.WriteLine($"Number is: {n}");

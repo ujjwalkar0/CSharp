@@ -4,6 +4,8 @@ namespace Program
     {
         private Dictionary<string, string> _dict;
 
+        public string[] arr = new string[5];
+
         public Indexers(){
             _dict = new Dictionary<string, string>();
         }
@@ -17,5 +19,15 @@ namespace Program
                 _dict[key] = value;
             }
         }
+
+        public string this[int i]{
+            get{
+                return arr[i];
+            }
+            set{
+                arr[i] = value;
+            }
+        }
+
     }
 }

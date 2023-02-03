@@ -1,4 +1,8 @@
-﻿namespace Program
+﻿using MyEventHandler;
+// using MyEventHandler2;
+using Messenger;
+
+namespace Program
 {
     class CSharp
     {
@@ -68,7 +72,7 @@
             // staticClass.a = 87;
             // System.Console.WriteLine(staticClass.a);
 
-            
+
             // staticClass.a = 86;
             // System.Console.WriteLine(staticClass.a);
 
@@ -79,8 +83,35 @@
             // new MyExpando();
             // new MyArrayList();
 
-            new MyFunCAction();
-            
+            // new MyFunCAction();
+
+            // new ParamMod();
+            // new IsAs();
+
+            // var a = new Indexers();
+            // a[0] = "Hello ";
+            // a["Hello"] = "World";
+            // System.Console.WriteLine(a[0] + a["Hello"]);
+
+            // new methodHiding();
+
+            // new sealedClass();
+
+            // new MyStruct();
+
+            // new MyEventHandler2.Class1();
+
+            // if (args[0] == "client")
+            // {
+            //     new Client();
+            // }
+            // else
+            // {
+            //     new Server();
+            // }
+
+            new MyEventHandler.Class1();
+
             // new MyHashTable();
         }
     }

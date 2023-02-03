@@ -11,10 +11,7 @@ namespace Program
 
         public int getAge
         {
-            get
-            {
-                return DateTime.Today.Year - birthday.Year;
-            }
+            get => DateTime.Today.Year - birthday.Year;
         }
     }
 
@@ -28,32 +25,41 @@ namespace Program
         {
             get
             {
-                if (auth==true){
+                if (auth == true)
+                {
                     return clinisys;
                 }
                 return "None";
             }
             set
             {
-                if (auth==true){
-                    clinisys=value;
+                if (auth == true)
+                {
+                    clinisys = value;
                 }
 
             }
+        }
+
+        private string? __name;
+        public string Name{
+            get => __name!;
+            set => __name=value;
         }
 
         public newGetSet()
         {
             string val = Console.ReadLine()!;
 
-            if (val==token){
+            if (val == token)
+            {
                 auth = true;
             }
-        
 
-            name = "Ujjwal";
 
-            System.Console.WriteLine(name);
+            Name = "Ujjwal";
+
+            System.Console.WriteLine(Name);
         }
     }
 }
