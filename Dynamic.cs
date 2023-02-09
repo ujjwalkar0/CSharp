@@ -3,9 +3,9 @@ namespace Program
     class MyDynamic
     {
 
-        public void Add(dynamic a, dynamic b)
+        public dynamic Add(dynamic a, dynamic b)
         {
-            System.Console.WriteLine(a + b);
+            return a + b;
         }
 
         public MyDynamic()
@@ -51,9 +51,9 @@ namespace Program
             }
             System.Console.WriteLine();
 
-            Add("Hello", "World");
-            Add("Hello", 8);
-            Add(8, 9);
+            System.Console.WriteLine(Add("Hello", "World"));
+            System.Console.WriteLine(Add("Hello", 8));
+            System.Console.WriteLine(Add(8, 9));
         }
     }
 }

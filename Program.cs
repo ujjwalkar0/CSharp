@@ -110,7 +110,19 @@ namespace Program
             //     new Server();
             // }
 
-            new MyEventHandler.Class1();
+            // new MyEventHandler.Class1();
+
+            // new MyDynamic();
+
+            // new MyAssyncAwait();
+
+            // new Task1();
+            // new Task2();
+            // new MyTupple();
+
+            // new MyIEnumerable();
+
+            new MyIComparable();
 
             // new MyHashTable();
         }
